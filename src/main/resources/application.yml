@@ -6,10 +6,10 @@ spring:
     config:
       server:
         git:
-          uri:
-          search-paths:
-          username:
-          password:
+          uri: https://github.com/dinnercheng/config-server.git
+          search-paths: /config-repo
+          username: chadsea@sina.com
+          password: chadsea1009
 
 
 server:
